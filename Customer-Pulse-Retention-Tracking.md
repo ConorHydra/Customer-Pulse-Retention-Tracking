@@ -9,7 +9,7 @@ description: Tableau is a powerful and fastest growing data visualization tool u
 ---
 
 
-# Integrating Hydra with [Tableau](https://www.tableau.com/))
+# Integrating Hydra with [Tableau](https://www.tableau.com/)
 
   
 ## Scope
