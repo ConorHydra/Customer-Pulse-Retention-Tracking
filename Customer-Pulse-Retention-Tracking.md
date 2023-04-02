@@ -117,6 +117,7 @@ Congratulations! You've connected Hydra with Tableau! What next?
 Now that your data is connected, you're able to utilize your Hydra tables and create insights using Tableau visualization. Let's experiment with creating the below dashboard showcasing some important KPI's relating to customer interaction and orders.
 
 1. Create a worksheet and pull in the Eclickrate column. Edit the dimension to append the column name into the AVG() adaptor. Change the Show ME visual choice from bar chart to text tables and hide the title.
+
 ![AVG ClickRate](https://user-images.githubusercontent.com/129688085/229379200-8fb3c67c-3ebd-4653-9a33-7e4071b288bb.png)
 
 
@@ -129,6 +130,7 @@ Now that your data is connected, you're able to utilize your Hydra tables and cr
 ![AVG Order](https://user-images.githubusercontent.com/129688085/229379209-18f53d9a-7312-4cc4-845f-6ae1329de513.png)
 
 4. Open the Dashboard 1 tab. From this dash you can drag and positions the seperate statistics. 
+
 ![DASH](https://user-images.githubusercontent.com/129688085/229379215-e47b28f6-fc0a-4e9a-98f8-90e69b5fd7b3.png)
 
 
