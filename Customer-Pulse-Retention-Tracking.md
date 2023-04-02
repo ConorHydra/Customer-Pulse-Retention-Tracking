@@ -28,7 +28,6 @@ While simple, this will serve as a foundation for the development of more custom
 
   
 
-  
 
 - Ensure you have the details of your Hydra instance handy.
 
@@ -36,8 +35,7 @@ While simple, this will serve as a foundation for the development of more custom
 
 - Sign up for a free trial at [Tableau](https://www.tableau.com/products/trial).
 
-  
-
+ 
   
 
 ### Building the Table with Hydra
@@ -81,13 +79,11 @@ While simple, this will serve as a foundation for the development of more custom
 ### Connecting Tableau with Hydra
 
   
-
   
 
 Now we can configure Tableau to access our sample data in Hydra.
 
   
-
   
 
 1. As mentioned earlier, create a [trial account][Tableau](https://www.tableau.com/products/trial).
@@ -108,13 +104,16 @@ Now we can configure Tableau to access our sample data in Hydra.
 
 5. Retrieve your database credentials from your Hydra dashboard. You will need Hostname, User, Password, and Database. Keep all other options unchanged. Once all the information has been entered, select **Sign in**.
     
-   
+
 ![Tableau to HYDRA](https://user-images.githubusercontent.com/129688085/229379169-68f355d7-aa2b-498a-9db6-3de293f28b51.png)
 
 Congratulations! You've connected Hydra with Tableau! What next?
+
+
 ![Data Loaded](https://user-images.githubusercontent.com/129688085/229379193-949f5118-935c-4dad-8983-a829f341f5c8.png)
 
 Now that your data is connected, you're able to utilize your Hydra tables and create insights using Tableau visualization. Let's experiment with creating the below dashboard showcasing some important KPI's relating to customer interaction and orders.
+
 
 1. Create a worksheet and pull in the Eclickrate column. Edit the dimension to append the column name into the AVG() adaptor. Change the Show ME visual choice from bar chart to text tables and hide the title.
 
