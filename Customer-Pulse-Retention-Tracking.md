@@ -112,6 +112,8 @@ Congratulations! You've connected Hydra with Tableau! What next?
 
 ![Data Loaded](https://user-images.githubusercontent.com/129688085/229379193-949f5118-935c-4dad-8983-a829f341f5c8.png)
 
+
+## Quick Dash
 Now that your data is connected, you're able to utilize your Hydra tables and create insights using Tableau visualization. Let's experiment with creating the below dashboard showcasing some important KPI's relating to customer interaction and orders.
 
 
