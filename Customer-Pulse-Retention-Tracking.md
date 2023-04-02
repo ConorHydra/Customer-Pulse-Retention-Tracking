@@ -108,12 +108,31 @@ Now we can configure Tableau to access our sample data in Hydra.
 
 5. Retrieve your database credentials from your Hydra dashboard. You will need Hostname, User, Password, and Database. Keep all other options unchanged. Once all the information has been entered, select **Sign in**.
     
-   // ![Step_2](https://user-images.githubusercontent.com/71795488/227726544-8070700a-1525-4cb6-8ed3-24d0ab62155f.png)
    
+![Tableau to HYDRA](https://user-images.githubusercontent.com/129688085/229379169-68f355d7-aa2b-498a-9db6-3de293f28b51.png)
 
 Congratulations! You've connected Hydra with Tableau! What next?
+![Data Loaded](https://user-images.githubusercontent.com/129688085/229379193-949f5118-935c-4dad-8983-a829f341f5c8.png)
 
 Now that your data is connected, you're able to utilize your Hydra tables and create insights using Tableau visualization. Let's experiment with creating the below dashboard showcasing some important KPI's relating to customer interaction and orders.
+
+1. Create a worksheet and pull in the Eclickrate column. Edit the dimension to append the column name into the AVG() adaptor. Change the Show ME visual choice from bar chart to text tables and hide the title.
+![AVG ClickRate](https://user-images.githubusercontent.com/129688085/229379200-8fb3c67c-3ebd-4653-9a33-7e4071b288bb.png)
+
+
+2. Create a worksheet and pull in the Ordfreq column. Edit the dimension to append the column name into the AVG() adaptor. Change the Show ME visual choice from bar chart to text tables and hide the title.
+
+![AVG Ordfreq](https://user-images.githubusercontent.com/129688085/229379205-4fc390d0-560f-4e96-98cf-5268ea75afca.png)
+
+3. Create a worksheet and pull in the avgorder column. Edit the dimension to append the column name into the AVG() adaptor. Change the Show ME visual choice from bar chart to text tables and hide the title.
+
+![AVG Order](https://user-images.githubusercontent.com/129688085/229379209-18f53d9a-7312-4cc4-845f-6ae1329de513.png)
+
+4. Open the Dashboard 1 tab. From this dash you can drag and positions the seperate statistics. 
+![DASH](https://user-images.githubusercontent.com/129688085/229379215-e47b28f6-fc0a-4e9a-98f8-90e69b5fd7b3.png)
+
+
+### You're now done! Congratulations on creating your first Hydra x Tableau KPI dashboard!
 
 
    
